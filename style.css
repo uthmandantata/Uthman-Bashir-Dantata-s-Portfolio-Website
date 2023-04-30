@@ -1,0 +1,162 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/* Header Styles */
+#header {
+    background-color: #001429;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+}
+
+#nav-menu ul {
+    list-style: none;
+    float: right;
+}
+
+#nav-menu li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#nav-menu a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+
+/* Home Section Styles */
+#home {
+    height: 80vh;
+    padding-top: 250px;
+    padding-left: 250px;
+    width: 1200px;
+    font-size: 40px;
+}
+
+#home img {
+    height: 35px;
+}
+
+#home span {
+    color: rgb(0, 0, 255);
+}
+
+/* About Section Styles */
+#about {
+    text-align: center;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+#card {
+    text-align: start;
+
+}
+
+
+
+/* Skills Section Styles */
+
+#skills {
+    padding: 100px 0;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+}
+
+#skills ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    cursor: pointer;
+}
+
+#skills li:hover {
+    background: #001429;
+    color: aliceblue;
+}
+
+#skills li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+/* Footer Section Styles */
+.footer {
+    background-color: #001429;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/* social media icons*/
+.linkedin::before {
+    content: '\f08c';
+    font: var(--fa-font-brands);
+}
+
+.github::before {
+    content: '\f092';
+    font: var(--fa-font-brands);
+}
+
+.instagram::before {
+    content: '\f16d';
+    font: var(--fa-font-brands);
+}
