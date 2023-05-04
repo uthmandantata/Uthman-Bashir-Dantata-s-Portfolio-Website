@@ -21,6 +21,8 @@
     width: 100%;
 }
 
+
+
 #nav-menu ul {
     list-style: none;
     float: right;
@@ -46,7 +48,7 @@
 #home {
     height: 80vh;
     padding-top: 250px;
-    padding-left: 250px;
+    text-align: center;
     width: 1200px;
     font-size: 40px;
 }
@@ -159,4 +161,69 @@
 .instagram::before {
     content: '\f16d';
     font: var(--fa-font-brands);
+}
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 667px) {
+
+    #nav-menu {
+        position: absolute;
+    }
+
+    #container {
+        width: 90%;
+    }
+
+    #nav-menu a {
+        font-size: .9rem;
+    }
+
+    #home {
+        height: 40vh;
+        font-size: 13px;
+        padding-top: 100px;
+        text-align: center;
+        width: 94%;
+    }
+
+    #home img {
+        height: 15px;
+    }
+
+    /* About Section Styles */
+
+
+    #about img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    #about h2 {
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+
+    #about p {
+        padding: 10px;
+        font-size: .8rem;
+    }
+
+
+    #skills {
+        padding-left: 10px;
+        width: 94%;
+    }
+
+    #skills h2 {
+        font-size: 1.5rem;
+    }
+
+    #skills ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
 }
